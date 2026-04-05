@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт-портфолио - Тюрина Елена</title>
+
+    
+    <link rel="icon" href="favicon-light.ico" type="image/x-icon" media="(prefers-color-scheme: light)">
+    
+    <link rel="icon" href="favicon-dark.ico" type="image/x-icon" media="(prefers-color-scheme: dark)">
+
+    <link href="styles/normalize.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="styles/style.css">
+
+</head>
+<body>
+
+    <header>
+        
+        <a class="logo" href="index.html">
+            <img src="images/logo.png">
+        </a>
+        
+        <a class="text btn1" href="projects.html">Проекты</a>
+
+    </header>
+
+    <div class="star1">
+        <img src="images/star2.png">
+    </div>
+
+    <div class="star2">
+        <img class="child1" src="images/star1.png">
+        <img class="child2" src="images/star3.png">
+    </div>
+
+
+
+
+    <div class="container">
+        
+        <div class="cover">
+            <div class="cover-img">
+                <img src="images/cover.png">
+            </div>
+
+            <div class="cover-text">
+                
+                    <p class="h2">Тюрина Елена</p>
+                
+                    <p class="h1">Graphic designer</p>
+                
+            </div>
+        </div>
+
+
+        <div class="carousel-container">
+            <div class="carousel-track" id="carouselTrack">
+                
+            </div>
+        </div>
+
+        <dip class="button-wrapper-1">
+            <a class="text btn1" href="projects.html"> 
+                <p>Смотреть все</p> 
+                <img src="images/arrow-right.png" class="arrow_icon">
+            </a>
+        </dip>
+
+
+        <div class="about-me">
+            <p class="h2">Обо мне</p>
+            <p class="text">Меня зовут Елена, я&nbsp;графический дизайнер. Также стремлюсь развиваться в&nbsp;веб-дизайне, фронтенде, покадровой 
+                анимации и&nbsp;книжной иллюстрации. Лучше всего владею Photoshop, Figma, Illustrator, также работаю в&nbsp;InDesign. 
+                Владею типографикой, колористикой, композицией и&nbsp;создаю запоминающиеся элементы фирменного стиля. </p>
+            <p class="text">Моя уникальная стилистика — «милые» минималистичные иллюстрации с&nbsp;карандашными текстурами 
+                и&nbsp;неровными линиями, которые я&nbsp;встраиваю в&nbsp;фирменный стиль. Это делает мои проекты особенно близкими 
+                детской и&nbsp;подростковой аудитории.</p>
+        </div>
+
+
+        <div class="skills">
+            <p class="h2">Навыки</p>
+            <div class="skill">
+                <img src="images/icons/ps.png">
+                <p class="text">Photoshop</p>
+            </div>
+            <div class="skill">
+                <img src="images/icons/ai.png">
+                <p class="text">Illustrator</p>
+            </div>
+            <div class="skill">
+                <img src="images/icons/id.png">
+                <p class="text">Indesign</p>
+            </div>
+            <div class="skill">
+                <img src="images/icons/ae.png">
+                <p class="text">After Effects</p>
+            </div>
+            <div class="skill">
+                <img src="images/icons/pr.png">
+                <p class="text">Premiere Pro</p>
+            </div>
+            <div class="skill">
+                <img src="images/icons/figma.png">
+                <p class="text">Figma</p>
+            </div>
+        </div>
+
+        <div class="education">
+            <p class="h2">Образование</p>
+            <p class="text child2">2021-2026</p>
+            <p class="text child3">Санкт-Петербургский государственный университет промышленных технологий и дизайна, направление &laquo;Прикладная информатика в дизайне&raquo</p>
+        </div>
+
+
+        <div class="contacts">
+            <p class="h2">Контакты</p>
+            <div class="contact">
+                <img src="images/icons/behance.png">
+                <p class="text">behance.net/f463a8f3</p>
+            </div>
+            <div class="contact">
+                <img src="images/icons/tg.png">
+                <p class="text">@helenatyurina</p>
+            </div>
+            <div class="contact child-long">
+                <img src="images/icons/email.png">
+                <p class="text">elena.tyurina.2002@mail.ru</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="copiright">
+            <p class="note">© 2026 Тюрина Елена</p>
+        </div>
+        <a href="https://behance.net/f463a8f3" target="_blank">
+            <img class="footer-contact" src="images/icons/behance.png">
+        </a>
+        <a href="https://t.me/helenatyurina" target="_blank">
+            <img class="footer-contact" src="images/icons/tg.png">
+        </a>
+        <div class="email-wrapper" style="cursor: pointer;">
+            <img class="footer-contact" src="images/icons/email.png" onclick="copyEmailWithToastNearCursor('elena.tyurina.2002@mail.ru', event)">
+        </div>
+    </footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
